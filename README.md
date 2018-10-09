@@ -4,7 +4,7 @@
   - FastDFS 源代码（libfastcommon 依赖包） 注意版本
   - Nginx 源代码 （fastdfs-nginx-module）注意版本
 ## 所有依赖软件整包
- - 下载地址 
+ - 下载地址 https://github.com/tannongchun/fastdfs/blob/master/FastDFS.zip
   
 ## 安裝参考
    - 方案一： https://www.cnblogs.com/chiangchou/p/fastdfs.html
