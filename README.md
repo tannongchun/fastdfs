@@ -3,10 +3,13 @@
 ## 依赖软件
   - FastDFS 源代码（libfastcommon 依赖包） 注意版本
   - Nginx 源代码 （fastdfs-nginx-module）注意版本
+## 所有依赖软件整包
+ - 下载地址 
   
 ## 安裝参考
    - 方案一： https://www.cnblogs.com/chiangchou/p/fastdfs.html
    - 方案二： https://github.com/tannongchun/fastdfs/blob/master/fastdfs%E5%8D%95%E8%8A%82%E7%82%B9%E5%AE%89%E8%A3%85%E6%89%8B%E5%86%8C.pdf  
+
 
 ## 环境说明
 - 基于Spring boot 2.0.5
@@ -46,8 +49,9 @@
     
 - 4.单机部署fastdfs ，主要ip 地址不能是127.0.0.1或者localhost 这种，而应该是 192.168.*.*
 
-- 5.storage.conf 里面 http.server_port=80 端口 需要和nginx 配置的端口一致。             
-         
+- 5.storage.conf 里面 http.server_port=80 端口 需要和nginx 配置的端口一致。  
+           
+- 6.注意防火墙。         
          
 
 
